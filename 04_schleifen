@@ -1,0 +1,29 @@
+// WHILE
+
+int alter = 0;
+
+while (alter < 18)
+{
+    Console.WriteLine("Du darfst noch nicht wählen!");
+    alter++;
+}
+Console.WriteLine("Jetzt darfst du wählen");
+
+// FOR
+
+int jahr = 2000;
+
+for(int i = 18; i < 67; i++)
+{
+    Console.WriteLine("Du bist nur " + i + " Jahre alt und musst noch weiterarbeiten");
+}
+Console.WriteLine("Feierabend & Rente");
+
+// FOREACH
+
+string[] namen = { "Max", "Moritz", "Mia", "Maja" };
+
+foreach (string name in namen)
+{
+    Console.WriteLine("Hallo " + name);
+}
